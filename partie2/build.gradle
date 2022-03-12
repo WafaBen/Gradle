@@ -8,10 +8,10 @@ version '1.0-SNAPSHOT'
 repositories {
     mavenCentral()
     maven {
-        url 'https://mymavenrepo.com/repo/UCupZGgi6nq8F2cuB02j/'
+        url 'url to maven repo'
         credentials {
-            username 'myMavenRepo'
-            password '123456'
+            username 'username'
+            password 'pwd'
         }
     }
 }
