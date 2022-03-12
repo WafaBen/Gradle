@@ -53,10 +53,10 @@ generateMatrixAPI.dependsOn aAPI1, aAPI2, createFolder, build, javadoc
 publishing {
     repositories {
         maven {
-            url 'https://mymavenrepo.com/repo/YY3fKMiBuUNRQXBVvQhT/'
+            url 'url to maven repo'
             credentials {
-                username 'myMavenRepo'
-                password 'azerty'
+                username 'username'
+                password 'password'
             }
         }
     }
@@ -68,7 +68,7 @@ publishing {
     }
 }
 slack {
-    webhookUrl 'https://hooks.slack.com/services/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'
+    webhookUrl 'slack webhook'
     message {
         text = "Bonjour, On a deployé une nouvelle version du jar"
         channel = '#discussion'
